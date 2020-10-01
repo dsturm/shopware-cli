@@ -23,7 +23,7 @@
     "shopware": "./cli.js"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=12"
   },
   "keywords": [
     "cli-app",
