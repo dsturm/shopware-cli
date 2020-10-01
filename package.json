@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "test": "xo && nyc ava"
+    "test": "xo && nyc ava",
+    "update": "sh ./bin/update-dependencies.sh"
   },
   "author": {
     "name": "Ben Zörb",
