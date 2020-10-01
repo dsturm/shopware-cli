@@ -27,10 +27,10 @@ const showHelp = () => console.log(redent(trimNewlines(`
     $ shopware <command>
     
   Commands
-    console     Make calls to the shopware console from anywhere in your project
-    tools       Make calls to the shopware sw.phar from anywhere in your project
-    cache:clear Clear cache
-    help        Show this help
+    console     Make calls to the Shopware console from anywhere in your project.
+    tools       Make calls to the Shopware sw.phar from anywhere in your project.
+    cache:clear Clear cache.
+    help        Show this help.
      
   Options
     --tbd 
@@ -60,7 +60,7 @@ Promise
   })
   .then(({cmd, answers, input}) => {
     if (cmd === 'install' && !answers.overwrite && !initial) {
-      console.log(redent(trimNewlines(`${chalk.red('Canceled due to existing installation')}`)));
+      console.log(redent(trimNewlines(`${chalk.red('Canceled due to existing installation.')}`)));
       process.exit(0);
     }
 
